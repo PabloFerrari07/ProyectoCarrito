@@ -186,69 +186,34 @@ header{
     top: 0;
 }
 
-.carrito__lista{
-    background-color: #fff;
-    height: 80px;
-    list-style: none;
-    // box-shadow: 0 0 6px rgba(0,0,0,.5);
-    border-end-end-radius: 12px;
-    border-end-start-radius: 12px;
-    overflow: hidden;
-    top: 5px;
-    // margin-right: 55px;
-    position: absolute;
-    width: 250px;
-    // left: -15px;
-    right: 5px;
-    
-}
-
-.llenar{
-    height: 55%;
-}
-
-.carrito__botones{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
-}
-
-.carrito__botones a{
-    text-decoration: none;
-}
-
-.carrito_uno{
-    width: 90%;
-    background-color: #970305;
-    color: #fff;
-}
-
-.carrito_dos{
-    background-color: #05eb37;
-    width: 90%;
-    margin-top: 5px;
-    color: #fff;
-
-}
-
-.carrito__lista:hover{
-    height: 350px;
-    overflow: visible;
+.img_carrito{
+    width: 90px;
     cursor: pointer;
-    // position: static;
-}
-.carrito__lista img{
-    height: 70px;
 }
 
-.separadores__carrito{
-    display: flex;
-    justify-content: space-evenly;
-    border-bottom: 2px solid #970305;
-    width: 80%;
-    margin: auto;
+.carrito_vertical{
+    list-style: none;
+}
+
+.carrito_horizontal{
+    background-color: #fff;
+    height: 450px;
+    width: 260px;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 0;
+    position: absolute;
+    display: none;
+    list-style: none;
+
+}
+
+.vaciarCarrito{
+
+}
+
+.carrito_vertical:hover .carrito_horizontal{
+    display: block;
 }
 
 .secfirst__all{
